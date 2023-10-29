@@ -1,6 +1,10 @@
 import { useState, useEffect } from 'react'
 
-export default function Practice02() {
+type Props = {
+    message: string
+}
+
+export default function Practice02(props: Props) {
     return (
         <>
 
