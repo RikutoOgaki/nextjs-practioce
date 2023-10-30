@@ -22,7 +22,7 @@ const PracticeComponent = (props: Props) => {
 
     return (
         <>
-            <p>{state.message}</p>
+            <p style={{ fontSize: '3rem' }}>{state.message}</p>
         </>
     )
 }
