@@ -21,8 +21,6 @@ export default function Home() {
                 <li><Link className={style.link} href={'/practice/01'}>Practice01</Link></li>
                 <li><Link className={style.link} href={'/practice/02'}>Practice02</Link></li>
                 <li><Link className={style.link} href={'/practice/03'}>Practice03</Link></li>
-                <li><Link className={style.link} href={'/practice/04'}>Practice04</Link></li>
-                <li><Link className={style.link} href={'/practice/05'}>Practice05</Link></li>
               </ul>
             </nav>
           </div>
