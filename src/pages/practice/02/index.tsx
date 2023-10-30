@@ -4,6 +4,7 @@ type Props = {
     message: string
 }
 
+// messageを出力するComponent
 const PracticeComponent = (props: Props) => {
 
     const [state, setState] = useState<Props>({
