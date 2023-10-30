@@ -1,0 +1,25 @@
+.wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .explanationBox {
+        width: 30%;
+        height: 100%;
+        background-color: #262626;
+        padding: 1rem;
+
+        h2 {
+            color: #ffffff;
+            font-size: 2rem;
+        }
+
+        p {
+            color: #ffffff;
+        }
+    }
+
+    .com {}
+}
