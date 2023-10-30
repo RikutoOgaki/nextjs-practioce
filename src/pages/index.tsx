@@ -34,6 +34,9 @@ export default function Home() {
               期限は２週間です。<br />すべて完成しなくてもいいです。<br />
               しかし、１つでも多く自分で調べてやってみてください。<br />
               わからないところがあればいつでも聞いてください。
+              大垣が忙しい場合は
+              <Link style={{ color: '#262626' }} href={'https://github.com/RikutoOgaki/nextjs-practioce'}>このリポジトリー</Link>
+              を見てください。
             </p>
           </div>
         </div>

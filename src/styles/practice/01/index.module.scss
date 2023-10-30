@@ -1,0 +1,71 @@
+.wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .explanationBox {
+        width: 30%;
+        height: 100%;
+        background-color: #262626;
+        padding: 1rem;
+
+        .title {
+            color: #ffffff;
+            font-size: 2rem;
+        }
+
+        .text {
+            color: #ffffff;
+        }
+    }
+
+    .con {
+        width: 70%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 2rem;
+
+        .titleBox {
+            h2 {
+                font-size: 1.3rem;
+            }
+        }
+
+        .resultBox {
+            p {
+                font-size: 1.5rem;
+            }
+        }
+
+        .inputBox {
+            display: flex;
+            gap: 1rem;
+
+            .input {
+                border: none;
+                width: 10rem;
+                height: 2rem;
+                border-radius: 10px;
+                border: 2px solid #767676;
+            }
+
+            span {
+                font-size: 1.3rem;
+            }
+
+            .btn {
+                border: none;
+                width: 10rem;
+                height: 2rem;
+                background-color: #262626;
+                color: #ffffff;
+                border-radius: 10px;
+            }
+        }
+    }
+}
